@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E75D37B91F17509900D0B543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D37B81F17509900D0B543 /* AppDelegate.swift */; };
+		E75D37BB1F17509900D0B543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D37BA1F17509900D0B543 /* ViewController.swift */; };
+		E75D37BE1F17509900D0B543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75D37BC1F17509900D0B543 /* Main.storyboard */; };
+		E75D37C01F17509900D0B543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75D37BF1F17509900D0B543 /* Assets.xcassets */; };
+		E75D37C31F17509900D0B543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75D37C11F17509900D0B543 /* LaunchScreen.storyboard */; };
+		E75D37CE1F17509900D0B543 /* Practical35_datepicker_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D37CD1F17509900D0B543 /* Practical35_datepicker_viewTests.swift */; };
+		E75D37D91F17509900D0B543 /* Practical35_datepicker_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D37D81F17509900D0B543 /* Practical35_datepicker_viewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E75D37CA1F17509900D0B543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E75D37AD1F17509900D0B543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E75D37B41F17509900D0B543;
+			remoteInfo = "Practical35_datepicker view";
+		};
+		E75D37D51F17509900D0B543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E75D37AD1F17509900D0B543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E75D37B41F17509900D0B543;
+			remoteInfo = "Practical35_datepicker view";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E75D37B51F17509900D0B543 /* Practical35_datepicker view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practical35_datepicker view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75D37B81F17509900D0B543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E75D37BA1F17509900D0B543 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E75D37BD1F17509900D0B543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E75D37BF1F17509900D0B543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E75D37C21F17509900D0B543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E75D37C41F17509900D0B543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75D37C91F17509900D0B543 /* Practical35_datepicker viewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practical35_datepicker viewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75D37CD1F17509900D0B543 /* Practical35_datepicker_viewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practical35_datepicker_viewTests.swift; sourceTree = "<group>"; };
+		E75D37CF1F17509900D0B543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75D37D41F17509900D0B543 /* Practical35_datepicker viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practical35_datepicker viewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75D37D81F17509900D0B543 /* Practical35_datepicker_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practical35_datepicker_viewUITests.swift; sourceTree = "<group>"; };
+		E75D37DA1F17509900D0B543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E75D37B21F17509900D0B543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75D37C61F17509900D0B543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75D37D11F17509900D0B543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E75D37AC1F17509900D0B543 = {
+			isa = PBXGroup;
+			children = (
+				E75D37B71F17509900D0B543 /* Practical35_datepicker view */,
+				E75D37CC1F17509900D0B543 /* Practical35_datepicker viewTests */,
+				E75D37D71F17509900D0B543 /* Practical35_datepicker viewUITests */,
+				E75D37B61F17509900D0B543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E75D37B61F17509900D0B543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75D37B51F17509900D0B543 /* Practical35_datepicker view.app */,
+				E75D37C91F17509900D0B543 /* Practical35_datepicker viewTests.xctest */,
+				E75D37D41F17509900D0B543 /* Practical35_datepicker viewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E75D37B71F17509900D0B543 /* Practical35_datepicker view */ = {
+			isa = PBXGroup;
+			children = (
+				E75D37B81F17509900D0B543 /* AppDelegate.swift */,
+				E75D37BA1F17509900D0B543 /* ViewController.swift */,
+				E75D37BC1F17509900D0B543 /* Main.storyboard */,
+				E75D37BF1F17509900D0B543 /* Assets.xcassets */,
+				E75D37C11F17509900D0B543 /* LaunchScreen.storyboard */,
+				E75D37C41F17509900D0B543 /* Info.plist */,
+			);
+			path = "Practical35_datepicker view";
+			sourceTree = "<group>";
+		};
+		E75D37CC1F17509900D0B543 /* Practical35_datepicker viewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E75D37CD1F17509900D0B543 /* Practical35_datepicker_viewTests.swift */,
+				E75D37CF1F17509900D0B543 /* Info.plist */,
+			);
+			path = "Practical35_datepicker viewTests";
+			sourceTree = "<group>";
+		};
+		E75D37D71F17509900D0B543 /* Practical35_datepicker viewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E75D37D81F17509900D0B543 /* Practical35_datepicker_viewUITests.swift */,
+				E75D37DA1F17509900D0B543 /* Info.plist */,
+			);
+			path = "Practical35_datepicker viewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E75D37B41F17509900D0B543 /* Practical35_datepicker view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75D37DD1F17509900D0B543 /* Build configuration list for PBXNativeTarget "Practical35_datepicker view" */;
+			buildPhases = (
+				E75D37B11F17509900D0B543 /* Sources */,
+				E75D37B21F17509900D0B543 /* Frameworks */,
+				E75D37B31F17509900D0B543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practical35_datepicker view";
+			productName = "Practical35_datepicker view";
+			productReference = E75D37B51F17509900D0B543 /* Practical35_datepicker view.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E75D37C81F17509900D0B543 /* Practical35_datepicker viewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75D37E01F17509900D0B543 /* Build configuration list for PBXNativeTarget "Practical35_datepicker viewTests" */;
+			buildPhases = (
+				E75D37C51F17509900D0B543 /* Sources */,
+				E75D37C61F17509900D0B543 /* Frameworks */,
+				E75D37C71F17509900D0B543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E75D37CB1F17509900D0B543 /* PBXTargetDependency */,
+			);
+			name = "Practical35_datepicker viewTests";
+			productName = "Practical35_datepicker viewTests";
+			productReference = E75D37C91F17509900D0B543 /* Practical35_datepicker viewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E75D37D31F17509900D0B543 /* Practical35_datepicker viewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75D37E31F17509900D0B543 /* Build configuration list for PBXNativeTarget "Practical35_datepicker viewUITests" */;
+			buildPhases = (
+				E75D37D01F17509900D0B543 /* Sources */,
+				E75D37D11F17509900D0B543 /* Frameworks */,
+				E75D37D21F17509900D0B543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E75D37D61F17509900D0B543 /* PBXTargetDependency */,
+			);
+			name = "Practical35_datepicker viewUITests";
+			productName = "Practical35_datepicker viewUITests";
+			productReference = E75D37D41F17509900D0B543 /* Practical35_datepicker viewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E75D37AD1F17509900D0B543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Tops;
+				TargetAttributes = {
+					E75D37B41F17509900D0B543 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E75D37C81F17509900D0B543 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E75D37B41F17509900D0B543;
+					};
+					E75D37D31F17509900D0B543 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E75D37B41F17509900D0B543;
+					};
+				};
+			};
+			buildConfigurationList = E75D37B01F17509900D0B543 /* Build configuration list for PBXProject "Practical35_datepicker view" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E75D37AC1F17509900D0B543;
+			productRefGroup = E75D37B61F17509900D0B543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E75D37B41F17509900D0B543 /* Practical35_datepicker view */,
+				E75D37C81F17509900D0B543 /* Practical35_datepicker viewTests */,
+				E75D37D31F17509900D0B543 /* Practical35_datepicker viewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E75D37B31F17509900D0B543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75D37C31F17509900D0B543 /* LaunchScreen.storyboard in Resources */,
+				E75D37C01F17509900D0B543 /* Assets.xcassets in Resources */,
+				E75D37BE1F17509900D0B543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75D37C71F17509900D0B543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75D37D21F17509900D0B543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E75D37B11F17509900D0B543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75D37BB1F17509900D0B543 /* ViewController.swift in Sources */,
+				E75D37B91F17509900D0B543 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75D37C51F17509900D0B543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75D37CE1F17509900D0B543 /* Practical35_datepicker_viewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75D37D01F17509900D0B543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75D37D91F17509900D0B543 /* Practical35_datepicker_viewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E75D37CB1F17509900D0B543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E75D37B41F17509900D0B543 /* Practical35_datepicker view */;
+			targetProxy = E75D37CA1F17509900D0B543 /* PBXContainerItemProxy */;
+		};
+		E75D37D61F17509900D0B543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E75D37B41F17509900D0B543 /* Practical35_datepicker view */;
+			targetProxy = E75D37D51F17509900D0B543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E75D37BC1F17509900D0B543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75D37BD1F17509900D0B543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E75D37C11F17509900D0B543 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75D37C21F17509900D0B543 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E75D37DB1F17509900D0B543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E75D37DC1F17509900D0B543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E75D37DE1F17509900D0B543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practical35_datepicker view/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tops.Practical35-datepicker-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E75D37DF1F17509900D0B543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practical35_datepicker view/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tops.Practical35-datepicker-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E75D37E11F17509900D0B543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practical35_datepicker viewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tops.Practical35-datepicker-viewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practical35_datepicker view.app/Practical35_datepicker view";
+			};
+			name = Debug;
+		};
+		E75D37E21F17509900D0B543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practical35_datepicker viewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tops.Practical35-datepicker-viewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practical35_datepicker view.app/Practical35_datepicker view";
+			};
+			name = Release;
+		};
+		E75D37E41F17509900D0B543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Practical35_datepicker viewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tops.Practical35-datepicker-viewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Practical35_datepicker view";
+			};
+			name = Debug;
+		};
+		E75D37E51F17509900D0B543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Practical35_datepicker viewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tops.Practical35-datepicker-viewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Practical35_datepicker view";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E75D37B01F17509900D0B543 /* Build configuration list for PBXProject "Practical35_datepicker view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75D37DB1F17509900D0B543 /* Debug */,
+				E75D37DC1F17509900D0B543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75D37DD1F17509900D0B543 /* Build configuration list for PBXNativeTarget "Practical35_datepicker view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75D37DE1F17509900D0B543 /* Debug */,
+				E75D37DF1F17509900D0B543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E75D37E01F17509900D0B543 /* Build configuration list for PBXNativeTarget "Practical35_datepicker viewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75D37E11F17509900D0B543 /* Debug */,
+				E75D37E21F17509900D0B543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E75D37E31F17509900D0B543 /* Build configuration list for PBXNativeTarget "Practical35_datepicker viewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75D37E41F17509900D0B543 /* Debug */,
+				E75D37E51F17509900D0B543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E75D37AD1F17509900D0B543 /* Project object */;
+}
